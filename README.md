@@ -7,7 +7,7 @@ The standardized patients (SPs) benchmark contains three important aspects towar
 - **RJUA-SPs Dataset**: Virtual medical records for 45 simulated standardized patients (covering complete medical information for diagnosis and treatment).
 - **Algorithm**: A multi-agent framework for simulating the clinical conversations.
 
-![image](https://github.com/Alipay-Med/SPs_benchmark/pic/tease-1.png)
+![image](https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/tease-1.png)
 
 
 ## Collaborating Institutions
