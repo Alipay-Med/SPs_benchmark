@@ -1,5 +1,5 @@
 # Towards Automatic Evaluation for LLMs' Clinical Capabilities: Metric, Data, and Algorithm
-[查看中文版本](https://github.com/Alipay-Med/SPs_benchamark/README_cn.md)
+[查看中文版本](https://github.com/Alipay-Med/SPs_benchmark/blob/main/README_cn.md)
 
 ## SPs Benchmark Overview
 The standardized patients (SPs) benchmark contains three important aspects towards automatic evaluation for LLMs' clinical capabilities:
@@ -7,7 +7,7 @@ The standardized patients (SPs) benchmark contains three important aspects towar
 - **RJUA-SPs Dataset**: Virtual medical records for 45 simulated standardized patients (covering complete medical information for diagnosis and treatment).
 - **Algorithm**: A multi-agent framework for simulating the clinical conversations.
 
-![image](https://github.com/Alipay-Med/SPs_benchamark/pic/tease-1.png)
+![image](https://github.com/Alipay-Med/SPs_benchmark/pic/tease-1.png)
 
 
 ## Collaborating Institutions
@@ -23,7 +23,7 @@ The RJUA-SPs (RenJi hospital department of Urology and Ant Group collaborative s
 ### A SP Example
 A simplified example of structural SPs' medical records. Some details are omitted due to the limited space, such as the report results (denoted by XXX). Category and item are for bi-level retrieval, respectively. For a data sample, please refer to test_case.xlsx.
 
-![image](https://github.com/Alipay-Med/SPs_benchamark/pic/SPs_template-1.png)
+![image](https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/SPs_template-1.png)
 
 ### Dataset Features
 Characteristics of RJUA-SPs dataset. The data come from virtual cases written by medical experts based on clinical experience, making the dataset more realistic and ensuring data privacy. The questions cover multiple aspects of urology, accounting for 95% of all urological diseases. The dataset provides detailed specialty evidence and reasoning processes.
@@ -35,7 +35,7 @@ Based on this dataset, evaluations can be performed for various of medical tasks
 
 The retrieval task is used to construct data format, which can be further exploited for automatic evaluations. The data source of the retrieval task is from SPs data.
 
-![image](//github.com/Alipay-Med/SPs_benchamark/pic/tasks-1.png)
+![image](https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/tasks-1.png)
 
 
 ### Metric Information
@@ -53,7 +53,7 @@ The evaluation metrics (LLM-specific clinical pathway). The capabilities are der
 ### Algorithm
 Overview of the multi-agent framework. Intent recognition aims to understand the doctor agent's query for terminating conversation. Query parser can map the doctor agent's query to bi-level structure. The multi-agent framework can achieve context generation for the clinical QA and reasoning tasks, as well as environment simulation for the diagnostic dialogue tasks. Besides, RAE can automatically evaluate the doctor agent's clinical capabilities.
 
-![image](//github.com/Alipay-Med/SPs_benchamark/pic/multi-agent-frame-1.png)
+![image](https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/multi-agent-frame-1.png)
 
 
 ## Usage Instructions

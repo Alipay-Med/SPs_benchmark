@@ -1,12 +1,12 @@
 # 大型语言模型（LLMs）临床能力自动评测框架：指标、数据和算法
-[English Version](https://github.com/Alipay-Med/SPs_benchamark/README.md)
+[English Version](https://github.com/Alipay-Med/SPs_benchmark/blob/main/README.md)
 ## 标准化患者大模型评测基准
 标准化病人(SP)基准包括针对大型语言模型（LLMs）临床能力自动评估的三个重要方面：
 - **评估指标**：信息完整性、行为标准化、指导合理性、诊断逻辑性、治疗逻辑性和临床适用性。
 - **RJUA-SPs 数据集**：45个模拟标准化病人的虚拟医疗记录（涵盖诊断和治疗的完整医疗信息）。
 - **算法框架**：模拟临床对话的多智能体框架。
 
-![image](https://github.com/Alipay-Med/SPs_benchamark/pic/tease-1.png)
+![image](https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/tease-1.png)
 
 
 ## 合作机构
@@ -23,7 +23,7 @@ RJUA-SPs数据集 (RenJi hospital department of Urology and Antgroup collaborati
 
 一个简化的结构化标准化患者(SP)医疗记录示例。由于空间有限，省略了一些内容的细节，例如报告结果（用XXX表示）。类别和项目分别用于两级检索。具体信息请参考 test_case.xlsx 示例文件。
 
-![image](https://github.com/Alipay-Med/SPs_benchamark/pic/SPs_template-1.png)
+![image](https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/SPs_template-1.png)
 
 
 ### 数据集特征
@@ -36,7 +36,7 @@ RJUA-SPs数据集 (RenJi hospital department of Urology and Antgroup collaborati
 
 下图展示了不同类型医疗任务的构造示例。检索任务利用标准化患者数据构建数据不同医疗任务的数据格式，以用于进一步的自动评估。
 
-![image](//github.com/Alipay-Med/SPs_benchamark/pic/tasks-1.png)
+![image](https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/tasks-1.png)
 
 
 ### 指标信息
@@ -53,7 +53,7 @@ SPs基准评估范式：评估能力的要求主要来自于LCP（基于大模�
 
 ### 算法框架
 多智能体框架概述：意图识别旨在理解医生智能体用于结束对话的查询。查询理解可以将医生智能体的查询映射到双层结构。该多智能体框架可以为临床问答和推理任务实现上下文生成，以及为诊断对话任务提供环境模拟。此外，RAE可以自动评估医生智能体的临床能力。
-![image](//github.com/Alipay-Med/SPs_benchamark/pic/multi-agent-frame-1.png)
+![image](https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/multi-agent-frame-1.png)
 
 
 ## 使用说明
