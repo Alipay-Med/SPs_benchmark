@@ -23,7 +23,8 @@ RJUA-SPs数据集 (RenJi hospital department of Urology and Antgroup collaborati
 
 一个简化的结构化标准化患者(SP)医疗记录示例。由于空间有限，省略了一些内容的细节，例如报告结果（用XXX表示）。类别和项目分别用于两级检索。具体信息请参考 test_case.xlsx 示例文件。
 
-![image](https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/SPs_template-1.png)
+[//]: # (![image]&#40;https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/SPs_template-1.png&#41;)
+<img src="https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/SPs_template-1.png" width="30%">
 
 
 ### 数据集特征

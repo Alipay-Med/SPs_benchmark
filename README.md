@@ -23,7 +23,8 @@ The RJUA-SPs (RenJi hospital department of Urology and Ant Group collaborative s
 ### A SP Example
 A simplified example of structural SPs' medical records. Some details are omitted due to the limited space, such as the report results (denoted by XXX). Category and item are for bi-level retrieval, respectively. For a data sample, please refer to test_case.xlsx.
 
-![image](https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/SPs_template-1.png)
+[//]: # (![image]&#40;https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/SPs_template-1.png&#41;)
+<img src="https://github.com/Alipay-Med/SPs_benchmark/blob/main/pic/SPs_template-1.png" width="30%">
 
 ### Dataset Features
 Characteristics of RJUA-SPs dataset. The data come from virtual cases written by medical experts based on clinical experience, making the dataset more realistic and ensuring data privacy. The questions cover multiple aspects of urology, accounting for 95% of all urological diseases. The dataset provides detailed specialty evidence and reasoning processes.
